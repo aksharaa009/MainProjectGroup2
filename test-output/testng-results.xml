@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-10T00:58:22 BST" name="Default suite" finished-at="2024-06-10T00:59:45 BST" duration-ms="82883">
+    <groups>
+    </groups>
+    <test started-at="2024-06-10T00:58:22 BST" name="Default test" finished-at="2024-06-10T00:59:45 BST" duration-ms="82883">
+      <class name="StepDefenition.TestLogin">
+        <test-method is-config="true" signature="initialiseDriver()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:58:22 BST" name="initialiseDriver" finished-at="2024-06-10T00:59:28 BST" duration-ms="66105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method is-config="true" signature="init()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:28 BST" name="init" finished-at="2024-06-10T00:59:28 BST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="poslogin()[pri:1, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:28 BST" name="poslogin" finished-at="2024-06-10T00:59:30 BST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- poslogin -->
+        <test-method is-config="true" signature="clearForm()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:30 BST" name="clearForm" finished-at="2024-06-10T00:59:31 BST" duration-ms="1183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearForm -->
+        <test-method signature="negInvalidCredentials()[pri:2, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:31 BST" name="negInvalidCredentials" finished-at="2024-06-10T00:59:34 BST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negInvalidCredentials -->
+        <test-method is-config="true" signature="clearForm()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:34 BST" name="clearForm" finished-at="2024-06-10T00:59:35 BST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearForm -->
+        <test-method signature="poslogin2()[pri:3, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:35 BST" name="poslogin2" finished-at="2024-06-10T00:59:39 BST" duration-ms="3401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- poslogin2 -->
+        <test-method is-config="true" signature="clearForm()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:39 BST" name="clearForm" finished-at="2024-06-10T00:59:40 BST" duration-ms="1202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearForm -->
+        <test-method signature="blankCredentials()[pri:4, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:40 BST" name="blankCredentials" finished-at="2024-06-10T00:59:43 BST" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blankCredentials -->
+        <test-method is-config="true" signature="clearForm()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:43 BST" name="clearForm" finished-at="2024-06-10T00:59:44 BST" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefenition.TestLogin@7c729a55]" started-at="2024-06-10T00:59:44 BST" name="tearDown" finished-at="2024-06-10T00:59:45 BST" duration-ms="447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefenition.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
