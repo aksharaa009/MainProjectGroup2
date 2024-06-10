@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="StepDefenition.TestMembershipAdminPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_MP_08"/>
+          <include name="TC_MP_010"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- StepDefenition.TestMembershipAdminPage -->
+      <class name="StepDefenition.TestEventsDropdown">
+        <methods>
+          <include name="TC_MP_005"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- StepDefenition.TestEventsDropdown -->
+      <class name="StepDefenition.TestMembership">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC_MP_002"/>
+          <include name="initialiseDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- StepDefenition.TestMembership -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
