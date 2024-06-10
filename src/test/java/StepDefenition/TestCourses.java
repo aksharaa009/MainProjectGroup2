@@ -19,8 +19,8 @@ public class TestCourses extends TestBase {
     public void classSetup() {
         lp = new LandingPageCourses(driver);
         dc = new DashboardCourseReg(driver);
-        String filePath = "C:\\gitsd\\MainProjectGroup2\\TestData\\data.xlsx"; // Update with your Excel file path
-        String sheetName = "Sheet1"; // Update with your Excel sheet name
+        String filePath = "C:\\gitsd\\MainProjectGroup2\\TestData\\data.xlsx"; 
+        String sheetName = "Sheet1"; 
         excelUtils = new ExcelUtils(filePath, sheetName);
     }
 
@@ -39,7 +39,7 @@ public class TestCourses extends TestBase {
         int colCount = excelUtils.getColumnCount();
         Object[][] data = new Object[rowCount - 2][colCount];
 
-        for (int i = 1; i < rowCount - 1; i++) { // Skip header and invalid data
+        for (int i = 1; i < rowCount - 1; i++) { 
             for (int j = 0; j < colCount; j++) {
                 data[i - 1][j] = excelUtils.getCellData(0, i, j);
             }
@@ -57,28 +57,6 @@ public class TestCourses extends TestBase {
         lp.enterEmail(email);
         lp.enterPhoneNumber(phoneNumber);
         lp.clickRegButton();
-
-        if (lp.registerButton.isEnabled()) {
-            Assert.assertTrue(true, "Registration success");
-        }
-    }
-
-//@Test(priority = 1)
-    public void blankRegistrationForm() throws InterruptedException {
-        regSteps();
-        lp.enterName("");
-        lp.enterEmail("");
-        lp.enterPhoneNumber("");
-        lp.inactiveRegClick();
-        
-        Assert.assertFalse(lp.registerButton.isEnabled(), "Registration failed with blank data"); 
-        driver.get("http://64.227.132.109/LandingPage");
-        
-      
-    }
-    
-    @Test(priority = 2)
-    public void signIn() throws InterruptedException {
         lp.loginClick();
 
         lp.enterUsernameLogin(prop.getProperty("username"));
@@ -86,12 +64,7 @@ public class TestCourses extends TestBase {
         Thread.sleep(2000);
         lp.loginbutClick();
         Thread.sleep(2000);
-        if (dc.adminLink.isDisplayed()) {
-            System.out.println("Login successful");
-        } else {
-            System.out.println("Login failed");
-        }
-        Assert.assertTrue(true, "Login successful");
+        Assert.assertTrue(dc.adminLink.isDisplayed(), "Login successful");
         dc.clickAdmin();
         dc.clickLogout();
         Thread.sleep(2000);

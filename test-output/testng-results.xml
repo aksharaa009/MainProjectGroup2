@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-10T10:11:23 IST" name="Suite" finished-at="2024-06-10T10:14:21 IST" duration-ms="177914">
+    <groups>
+    </groups>
+    <test started-at="2024-06-10T10:11:23 IST" name="Test" finished-at="2024-06-10T10:14:21 IST" duration-ms="177914">
+      <class name="StepDefenition.TestCourses">
+        <test-method is-config="true" signature="initialiseDriver()[pri:0, instance:StepDefenition.TestCourses@5c5eefef]" started-at="2024-06-10T10:11:23 IST" name="initialiseDriver" finished-at="2024-06-10T10:11:33 IST" duration-ms="9620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:StepDefenition.TestCourses@5c5eefef]" started-at="2024-06-10T10:11:33 IST" name="classSetup" finished-at="2024-06-10T10:11:35 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="searchCourses(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:StepDefenition.TestCourses@5c5eefef]" started-at="2024-06-10T10:11:35 IST" name="searchCourses" data-provider="readData" finished-at="2024-06-10T10:12:07 IST" duration-ms="31980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aksharaa009@gmail.com
+]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[987654321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourses -->
+        <test-method signature="searchCourses(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:StepDefenition.TestCourses@5c5eefef]" started-at="2024-06-10T10:12:07 IST" name="searchCourses" data-provider="readData" finished-at="2024-06-10T10:12:37 IST" duration-ms="30061" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[usergmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCourses -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefenition.TestCourses@5c5eefef]" started-at="2024-06-10T10:12:37 IST" name="tearDown" finished-at="2024-06-10T10:12:38 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefenition.TestCourses -->
+      <class name="StepDefenition.TestRegList">
+        <test-method is-config="true" signature="initialiseDriver()[pri:0, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:12:38 IST" name="initialiseDriver" finished-at="2024-06-10T10:12:46 IST" duration-ms="8982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseDriver -->
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:12:46 IST" name="classSetup" finished-at="2024-06-10T10:12:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetup -->
+        <test-method signature="testRegistrationIncreasesCount()[pri:4, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:12:46 IST" name="testRegistrationIncreasesCount" finished-at="2024-06-10T10:13:38 IST" duration-ms="51396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationIncreasesCount -->
+        <test-method signature="viewRegList()[pri:5, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:13:38 IST" name="viewRegList" finished-at="2024-06-10T10:14:09 IST" duration-ms="31172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewRegList -->
+        <test-method signature="downloadFile()[pri:7, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:14:09 IST" name="downloadFile" finished-at="2024-06-10T10:14:21 IST" duration-ms="11584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:StepDefenition.TestRegList@79e2c065]" started-at="2024-06-10T10:14:21 IST" name="tearDown" finished-at="2024-06-10T10:14:21 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- StepDefenition.TestRegList -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
